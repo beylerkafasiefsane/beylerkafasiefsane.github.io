@@ -78,7 +78,7 @@ button.start-button:selected
 }
 button img
 {
-  border-radius: 90%;
+
 }
 button:hover {
 
@@ -107,5 +107,8 @@ div.sehir
 margin-right: 500px; /*Dışardan 100px sağa doğru kayar*/
 margin-left: 500px;
   float: left;
+}
+img.toggler
+{
 
 }
