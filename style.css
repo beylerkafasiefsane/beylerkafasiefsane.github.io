@@ -2,7 +2,10 @@ body
 {
 background-color: #343a40;
 }
-
+body.sehrim
+{
+  color: white;
+}
 
 button.navbar-toggler:active
 {
