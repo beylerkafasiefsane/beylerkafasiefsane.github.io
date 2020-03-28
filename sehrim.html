@@ -8,12 +8,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
+  <script  src="app.js"  type="text/javascript"></script>
+
 </head>
 <body class="sehrim">
-
+<div class="girizgah">
+  <h1 class="girizgah">MALATYA</h1>
+</div>
 <div class="container">
-  <p> <a href="index.html"><button type="button" name="button">ANA MENÜ</button> </a></p>
-  <h1 class="sehir">MALATYA</h1>
+
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -34,44 +37,44 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner">
+    <div id="bas" class="carousel-inner">
       <div class="item active">
-      <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/yeni-cami751532" target="_blank">  <img src="yenicami.jpg" alt="Malatya Yeni Camii" style="width:100%;"> </a>
+      <a href="#yenicami" onclick="camigizle()">  <img src="yenicami.jpg" alt="Malatya Yeni Camii" style="width:100%;"> </a>
       </div>
 
       <div class="item">
-      <a href="https://www.youtube.com/watch?v=Qlf0yN9vJcs" target="_blank">  <img src="sirepazari.jpg" alt="Şire Pazar Çarşı" style="width:100%;"> </a>
+      <a href="#sirepazari" onclick="sirepazarigizle()">  <img src="sirepazari.jpg" alt="Şire Pazar Çarşı" style="width:100%;"> </a>
       </div>
 
       <div class="item">
-      <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/orduzu-pinarbasi" target="_blank">  <img src="orduzu.jpg" alt="Orduzu Park" style="width:100%;"> </a>
+      <a href="#orduzu" onclick="orduzugizle()">  <img src="orduzu.jpg" alt="Orduzu Park" style="width:100%;"> </a>
       </div>
       <div class="item">
-      <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/silahtar-mustafa-pasa-kervansarayi" target="_blank">  <img src="silahtarmustafa.jpg" alt="Silahtar Mustafa Paşa Kervansarayı" style="width:100%;">
+      <a href="#silahtarmustafa" onclick="silahtarmustafagizle()">  <img src="silahtarmustafa.jpg" alt="Silahtar Mustafa Paşa Kervansarayı" style="width:100%;">
       </div>
       <div class="item">
-      <a href="https://malatya.ktb.gov.tr/TR-58312/aslantepe.html" target="_blank"> <img src="arslantepe.jpg" alt="Arslantepe Ruins" style="width:100%;"> </a>
+      <a href="#arslantepe" onclick="arslantepegizle()"> <img src="arslantepe.jpg" alt="Arslantepe Ruins" style="width:100%;"> </a>
       </div>
       <div class="item">
-      <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/eski-malatya-battalgazi-ulu-cami" target="_blank">  <img src="battalgazi.jpg" alt="Ulu Camii Battalgazi" style="width:100%;"></a>
+      <a href="#battalgazi" onclick="battalgazigizle()">  <img src="battalgazi.jpg" alt="Ulu Camii Battalgazi" style="width:100%;"></a>
       </div>
       <div class="item">
-      <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/kanli-kumbet" target="_blank"> <img src="kanli.jpg" alt="Kanlı Kümbet" style="width:100%;"></a>
+      <a href="#kanli" onclick="kanligizle()"> <img src="kanli.jpg" alt="Kanlı Kümbet" style="width:100%;"></a>
       </div>
       <div class="item">
-      <a href="https://www.sabah.com.tr/galeri/turkiye/anadolunun-buyuk-kanyonu-levent-vadisi" target="_blank">   <img src="levent.jpg" alt="Levent Vadisi" style="width:100%;"></a>
+      <a href="#levent" onclick="leventgizle()">   <img src="levent.jpg" alt="Levent Vadisi" style="width:100%;"></a>
       </div>
       <div class="item">
-      <a href="http://tarihim.battalgazi.bel.tr/icerik.asp?TarihiEserler=DRESXedcvfDSFER&Tarihi_Eserler=Battalgazi" target="_blank">  <img src="poyrazkonagi.jpg" alt="Poyraz Konağı" style="width:100%;"></a>
+      <a href="#poyrazkonagi" onclick="poyrazkonagigizle()">  <img src="poyrazkonagi.jpg" alt="Poyraz Konağı" style="width:100%;"></a>
       </div>
       <div class="item">
-      <a href="https://www.hurriyet.com.tr/sanat-sokagi-acilis-icin-gun-sayiyor-37173393" target="_blank">  <img src="sanatsokagi.jpg" alt="Sanat Sokağı" style="width:100%;"></a>
+      <a href="#sanatsokagi" onclick="sanatsokagigizle()">  <img src="sanatsokagi.jpg" alt="Sanat Sokağı" style="width:100%;"></a>
       </div>
       <div class="item">
-      <a href="https://www.youtube.com/watch?v=G5XmdjJDJpA" target="_blank">  <img src="semsiyesokak.jpg" alt="Şemsiye Sokak" style="width:100%;"></a>
+      <a href="#semsiyesokak" onclick="semsiyesokakgizle()">  <img src="semsiyesokak.jpg" alt="Şemsiye Sokak" style="width:100%;"></a>
       </div>
       <div class="item">
-      <a href="https://www.kulturportali.gov.tr/turkiye/malatya/gezilecekyer/tashoron-kilisesi" target="_blank">  <img src="tashoron.jpg" alt="Taşhoron Kilisesi" style="width:100%;"></a>
+      <a href="#tashoron" onclick="tashorongizle()">  <img src="tashoron.jpg" alt="Taşhoron Kilisesi" style="width:100%;"></a>
       </div>
     </div>
 
@@ -87,32 +90,96 @@
   </div>
 </div>
 <div>
-  <h1>Yeni Camii</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<div >
+
+
+
+
+  <div id="yenicami" class="yenicami">
+    <hr><br>
+<h1>Yeni Camii</h1>
+
+<p class="yazilar"> Yapımına 1893’te başlanan ve Sultan 2. Abdülhamid’in verdiği destekle 1912’de tamamlanan tarihi cami, adeta yıllara meydan okuyor.
+
+Osmanlı mimarisini bugüne taşıyan ve tamamen kesme taştan yapılan, Hacı Yusuf adlı zat tarafından yaptırılan, ancak depremde yıkılan bu caminin yerine taştan yapıldığı için ‘Hacı Yusuf Taş Camisi’, halk arasında da ‘Teze Cami’ ya da ‘Yeni Cami’ adıyla anılan cami, merkez kubbe ve beş gözlü son cemaat mekanından oluşuyor. </p>
+<br>  </div>
+
+    <div id="sirepazari">
+      <hr><br>
 <h1>Şire Pazarı</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  <p class="yazilar"> Kayısı ve kayısı ürünlerinin bulunduğu. Bir Çarşıdır, eğer bir gün Malatya'dan dönen dostlarınız size bir kutu kayısı ve benzeri hediye verirse bilin ki buradan alınmıştır.</p>
+<br>    </div>
+
+    <div id="orduzu"> <hr><br>
 <h1>Orduzu</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  <p class="yazilar"> rduzu Pınarbaşı, Malatya merkezinde adı en çok bilinen mesire yeridir. Malatya-Elazığ karayolu üzerinde, merkeze 5 kilometre mesafede, Orduzu beldesindedir. Kaynak sularının önüne set çekilerek oluşturulan göl ve gölün her iki yamacındaki çam ve diğer ağaçlar çok güzel bir manzara ortaya çıkarmaktadır. Malatyalılar ve Malatya’daki misafirler, her mevsim bir başka güzel olan mesire yerine özellikle yaz aylarında büyük ilgi gösterirler. Orduzu Pınarbaşı’nda arzu ederseniz seyrine doyum olmayan manzara eşliğinde piknik, arzu ederseniz yürüyüş yapar, arzu ederseniz de göl kenarında hizmet veren lokantalarda manzara eşliğinde yemeğinizi yiyebilirsiniz. </p>
+  <br>  </div>
+
+    <div id="silahtarmustafa"> <hr><br>
 <h1>Silahtar Mustafa Paşa Kervansarayı</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  <p class="yazilar"> Battalgazi İlçesi Alacakapı Mahallesi’nde, 1637 tarihinde IV. Murat’ın silahtarı Bosnalı Mustafa Paşa tarafından yaptırılmıştır. 68x76 metre boyutunda dikdörtgen bir alan üzerine, açık avlu ve kapalı hol olarak inşa edilmiştir. Kemerli olan giriş kapısının her iki yanında bir oda görülür. Bu kapının üstünde duvar içerisinden merdivenle çıkılan bir mescit olduğu sanılan kısma varılır. Holün avluya bakan yüzünde ve girişin her iki yakasında üstleri tonozla örtülü altışar oda sıralanır. Asıl kapalı kısmın üstü ise üç sıra tonozla örtülmüştür. Tonozlar sade ayaklar üzerine basmaktadır.
+
+ </p >
+<br>    </div>
+
+    <div id="arslantepe"> <hr><br>
 <h1>Arslantepe Höyüğü</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p class="yazilar">Arslantepe, yapılan kazılar sonucu bulunmuş ve Malatya'nın da adını aldığı "Melid" Şehri'nin kalıntılarıdır. Melid antik bir şehirdir ve Tohma Kanyonu sayesinde sulak bir  arazidir. Bu konuyu detaylı araştırmaınızı tavsiye ederim.</p>
+<br>    </div>
+
+    <div id="battalgazi"> <hr><br>
 <h1>Ulu Camii</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p class="yazilar">Battalgazi ilçesinde (Eski Malatya) bulunan bu cami Selçuklu Hükümdarı Alaaddin Keykubat zamanında 1224 yılında inşa edilmiştir. Kitabesine göre mimarları Yakup bin Ebubekir el-Malati ve Mansur bin Yakup’tur. Tuğladan yapılmış kısımlar ilk cami şeklini, taş olanlar ise daha sonra yapılan ilaveleri gösterir. Dört eyvanlı plan ile İran’daki büyük Selçuklu camilerinin Anadolu’daki ilk ve tek örneğidir.</p>
+<br>    </div>
+
+    <div id="kanli"> <hr><br>
 <h1>Kanlı Mezarlık</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p class="yazilar">Battalgazi İlçesinin Meydanbaşı Mahallesinde ve eski mezarlığın içinde yer alır. Yanlışlıkla cellathane olarak tanınan bu yapı aslında kripta odası bulunan bir anıt mezardır. Kare bir plan üzerine inşa edilen yapıt iki kısımdan meydan gelmiştir. Birinci kısımda cenazenin gömülü olduğu yer yani kripta görülür. Kripta girişi lentosu kısmen meyilli konmuştur. Kripta yapının temelini oluşturduğundan tamamen taş örülerek inşa edilmiştir. İkinci kısım ise türbe denilen halkın bir zamanlar ziyaret ettiği üst kısımdır. Bu kısımdaki duvar örgüsünde ağırlığı tuğla malzemesi oluşturur. Yapının üst kısmını hafif sivrilik gösteren bir kubbe örtmektedir. Yapı 789 m2 alan üzerindedir. Alt katın kıble duvarı üzerinde yar alan kitabe boya ile sıva üzerine yazıldığından okunması çok güç durumdadır.</p>
+<br>    </div>
+
+    <div id="levent"> <hr><br>
 <h1>Levent Vadisi</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p class="yazilar">Levent Vadisi Anadolu'nun en büyük kanyonudur.</p>
+<br>    </div>
+
+    <div id="poyrazkonagi"> <hr><br>
 <h1>Poyraz Konağı</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p class="yazilar">Poyraz Konağı (Ertunan Evi) Malatya ilinin Battalgazi ilçesi sınırları içerisinde yer almaktadır. Battalgazi ilçesine bağlı Meydanbaşı mahallesinde bulunmaktadır. Malatya şehir merkezine yaklaşık olarak 10 km mesafededir. Poyraz Konağı’nın yapım yılı 1890 olduğu tahmin edilmektedir. Bazı kaynaklara göre ise Rumi 1335 (M.1919) tarihinde yapıldığı bilgisine ulaşılmaktadır. Konak Son Osmanlı mimari yapı örneklerindendir. Cumhuriyet’in kurulduğu yıllarda yörenin en güzel yapısı olduğu belirtilmektedir.</p>
+<br>    </div>
+
+    <div id="sanatsokagi"> <hr><br>
 <h1>Sanat Sokağı</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p class="yazilar">İnsanların evlerinde yaptıkları ürünleri satabileceği sanat odaklı bir pazar.</p>
+<br>    </div>
+
+    <div id="semsiyesokak"> <hr><br>
 <h1>Şemsiye Sokak</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+<p class="yazilar">Sıcak Malatya günlerinde şemsiyelerle örtülmüş ve adım başı soğuk içecek ve dondurmacılarla dolu olan şirin sokak, Merkez ilçesinde çarşıdadır kapalı çarşıya çok yakındır.</p>
+    <br>  </div>
+
+    <div id="tashoron"> <hr><br>
 <h1>Taşhoron Kilisesi</h1>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
-
+<p class="yazilar">Taşhoron Kilisesi, Malatya ili Yeşilyurt ilçesi Çavuşoğlu mahallesinde yer alan 18. yüzyılın ikinci yarısında Ermeniler tarafından yapılan kilisedir. 1335 m2 bir alanda kurulu ve taştan yapılmadır. 2013 yılı içerisinde restore edilmeye başlanmıştır.</p>
+<br>
+    </div>
 </div>
+</div>
+
+<div class="muzik">
+  <button id="kapatici" onclick="invisible()" class="uzerinde" type="button" name="kapatici"> <img class="logo" src="kapat.png" width=32px alt=""> </button>
+  <video id="myVideo" width="155" height="155" controls>
+  <source src="malatya.mp4" type="video/mp4">
+  <source src="malatya.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+<footer>
+  <button onclick="enableAutoplay()" class="start1-button"> <img class="logo" src="play.png" width=32px alt=""> </button>
+  <button onclick="volumeUp()" class="start2-button"> <img src="plus.png" width=32px alt=""> </button>
+  <button onclick="volumeDown()" class="start3-button"> <img src="minus.png" width=32px alt=""> </button>
+
+<a href="index.html"  ><button type="button" name="button">ANA MENÜ</button> <a href="#bas"> <button type="button" name="button" onclick="hepsinigoster()">BAŞA DÖN</button></a> <a href="mirasimiz.html"  ><button type="button" name="button">MİRASIMIZ</button>
+</footer>
+<script src="app.js"></script>
 </body>
 </html>
