@@ -1,111 +1,265 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Optional JavaScript -->
+body
+{
+background-color: #343a40;
+}
+body.sehrim
+{
+  color: white;
+  background-image: url('kaysi.jpg');
+  background-blend-mode: soft-light;
+  font-size: 1vw;
+}
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+button.navbar-toggler:active
+{
+opacity: 30%;
+}
+img.logo
+{
+  border-radius: 50%;
+}
+img.logo:hover {
 
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  opacity: 70%;
+}
 
-    <title>Hello, world!</title>
-  </head>
-  <body class="anasayfa">
+div.dropdown-menu
+{
+  background-color: #343a40;
+}
+div a.dropdown-item
+{
+color:#007bff;
+}
+div a.dropdown-item:hover
+{
+  color:#0056b3;
+  background-color: #343a40;
+}
+.facebook
+{
+  background-color: white;
+}
+span.navbar-toggler-icon:active
+{
+  color:#0056b3;
+  background-color: #343a40;
+}
+h1
+{
+  padding: 10px;
+  text-align: center;
+}
+footer
+{
+  background-color: #343a40;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+p
+{
+  background-size:auto;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+}
+button.start-button
+{
+    border: 0px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+button.start-button:active
+{
+    border: 0px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+button.start-button:hover
+{
+    border: 0px solid white;
+    background-color: rgba(0, 0, 0, 0);
+}
+button.start-button:selected
+{
+    border: 0px solid white;
+    background-color: white;
+}
+button img
+{
 
-    <nav class="navbar navbar-expand-lg navbar-blue bg-dark">
+}
+button:hover {
 
-    <a class="navbar-brand" href="#"> <img class="logo" src="denedik.png" title="Ana Sayfa" width="32px">    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"> <img  src="toggledown.png" width="32px" alt=""> </span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="sehrim.html">Şehrim <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> Özgeçmiş </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="https://www.facebook.com/ben.melih"> <img class="logo" src="facebook.png" alt="Facebook" width=32px> </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="https://www.youtube.com/c/AhmetSoruc"><img class="logo" src="youtube.png" alt="Youtube" width=32px></a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="https://github.com/firatmelih/f"><img class="logo" src="github.png" alt="Github" width=32px></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Hoşgeldiniz: Misafir
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item " href="#">Üye Ol</a>
-            <a class="dropdown-item" href="#">Üye Girişi</a>
-            <a class="dropdown-item" href="#">Şifremi Unuttum</a>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-<p> <h2 class="beyaz">Melih FIRAT kimdir?</h2> </p>
-<div class="hakkinda container">
-
-  <img class="ortala" src="programlayan.jpg" alt="kodyazandam" >
-
-  <div class="centered">
-    <p class="centered ustune">Ben, Melih FIRAT, Marmara Depremi sabahı doğmuşum, 3 yaşında bilgisayarlar ile tanışmış 8 yaşında ilk oyununu (Para Babası) yapmıştım, liseden beridir Bilgisayar Mühendisi olmayı hedefleyen genç bir geliştiriciyim. Hobilerim arasında yağmurlu havada araç kullanmak ve yağmurlu havada sahile gitmek var. yaptığım her hangi bir spor yok, fakat Ralli ve Formula 1 yarışlarını seyretmeyi severim. Ve de 15 Bin aboneli youtube kanalım var.</p>
-  </div>
-</div>
-
-<p><h2 class="beyaz">Ralli Nedir?</h2></p>
-<div class="ralli container">
-  <img class="ortala" src="safari.gif" alt="kodyazandam" >
-
-  <div class="centered">
-    <p class="centered ustune">Ralli: yarışmacıların, otomobille belli yollardan giderek ve özel kurallara uyarak belirli bir yere ulaşmalarına dayanan otomobil yarışı.</p>
-  </div>
-</div>
+  opacity: 70%;
+}
+video
+{
+  float: right;
+  opacity: 100%;
+  pointer-events: none;
+}
+}
+p.sehir
+{
+  color: white;
+  margin: 50px;
+  padding: 1200px;
+}
+h1,h2
+{
+  text-align: center;
+  background-size: cover;
+  font-size:3vw;
+  color: white;
+}
+h1.sehir
+{
+  color: white;
+  text-align: center;
+}
+div.sehir
+{
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 100px; /*Dışardan 100px yukarı doğru kayar*/
+margin-right: 500px; /*Dışardan 100px sağa doğru kayar*/
+margin-left: 500px;
+  float: left;
+}
+.ortala {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
 
 
+.container {
+    width: 100%;
+    height: auto;
+  position: relative;
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+.centered {
+  width: 90%;
+  height: inherit;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+}
+.ustune
+{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  font-size:2vw;
+}
+.anasayfa
+{
+  background-image: url('background.jpg');
+}
+.beyaz
+{
+  color: white;
+}
+.muzik
+{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}
+.linkler
+{
+      bottom:0px;
+      right: 55px;
+}
+.uzerinde
+{
+  position:fixed;
+  bottom: 150px;
+  border: 0px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.linklerim
+{
+  font-size: 3vw;
+  text-decoration: none;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.8);
+  list-style: none;
+}
+.item
+{
+   transition: all 0.5s ease-in-out;
+}
+html{
+  scroll-behavior: smooth;
+}
+.gizle
+{
+  color: white;
+  opacity: 70%;
+}
+.goster
+{
+  background-color: orange;
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+  height:inherit;
+  width: 100%;
+}
+.normal
+{
+  color: white;
+  opacity: 100%
+}
 
-<p><h2 class="beyaz">Linkler</h2></p>
-<div class="linklerim container">
-  <img class="ortala" src="links.jpg" alt="kodyazandam" >
 
-  <div class="centered">
-    <ul class="linklerim ustune centered ustune">
-    <a href="https://tr.wikipedia.org/wiki/Ralli" target="_blank">  <li>Ralli</li></a>
-    <a href="https://tr.wikipedia.org/wiki/1999_G%C3%B6lc%C3%BCk_depremi" target="_blank"><li>Formula 1</li></a>
-    <a href="https://tr.wikipedia.org/wiki/Formula_1" target="_blank">  <li>Marmara Depremi</li></a>
-    </ul>
-  </div>
-</div>
-
-<div class="muzik">
-  <button id="kapatici" onclick="invisible()" class="uzerinde" type="button" name="kapatici"> <img class="logo" src="kapat.png" width=32px alt=""> </button>
-  <video id="myVideo" width="155" height="155" controls>
-  <source src="muzik.mp4" type="video/mp4">
-  <source src="muzik.ogg" type="video/ogg">
-  Your browser does not support HTML5 video.
-</video>
-</div>
-<footer>
-<button onclick="enableAutoplay()" class="start-button"> <img class="logo" src="play.png" width=32px alt=""> </button>
-<button onclick="volumeUp()" class="start-button"> <img src="plus.png" width=32px alt=""> </button>
-<button onclick="volumeDown()" class="start-button"> <img src="minus.png" width=32px alt=""> </button>
-
-   </footer>
-<script src="app.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
-
-  </body>
-</html>
+.start1-button
+{
+  position: fixed;
+  bottom: 0px;
+  right: 70px;
+  border: 0px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.start2-button
+{
+  position: fixed;
+  bottom: 0px;
+  right: 35px;
+  border: 0px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.start3-button
+{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border: 0px solid white;
+  background-color: rgba(0, 0, 0, 0);
+}
+.yazilar
+{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  font-size: 3vw;
+}
+.container
+{
+  width: 100%;
+  padding: 0px;
+}
+.girizgah
+{
+  font-size: 7vw;
+  color: orange;
+}
